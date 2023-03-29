@@ -7,8 +7,22 @@ print('3. Multiply *')
 print('4. Divide /')
 print('5. Square s')
 
-val = input('What operation would you like to perform? ')
+val = int(input('What operation would you like to perform? '))
 
 if val == 1: 
-   sum = num1 + num2 
-   print('Your answer is ', sum)
+    sum = num1 + num2
+    print('Your answer is ', sum)
+elif val == 2:
+    sum = num1 - num2
+    print('Your answer is ', sum)
+elif val == 3:
+    sum = num1 * num2
+    print('Your answer is ', sum)
+elif val == 4:
+    sum = num1 / num2
+    print('Your answer is ', sum)
+elif val == 5:
+    sum = num1 ^ num2
+    print('Your answer is ', sum)
+
+   
