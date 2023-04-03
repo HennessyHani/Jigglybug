@@ -22,7 +22,7 @@ elif val == 4:
     sum = num1 / num2
     print('Your answer is ', sum)
 elif val == 5:
-    sum = num1 ^ num2
+    sum = num1 ** num2
     print('Your answer is ', sum)
 
    
