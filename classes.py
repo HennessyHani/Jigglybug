@@ -21,3 +21,6 @@ val2 = int(input())
 val3 = int(input())
 
 print(student1.testscore(val1, val2, val3))
+
+
+
